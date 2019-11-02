@@ -1,6 +1,7 @@
 ﻿using Blacksmith.TypeExtensions;
 using Blacksmith.TypeExtensions.Exceptions;
 using Blacksmith.Validations;
+using Blacksmith.Validations.Localizations;
 using System;
 using System.Linq;
 

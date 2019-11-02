@@ -3,20 +3,22 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <SignAssembly>false</SignAssembly>
     <Description>Usefull extension methods for Type and Assembly</Description>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
     <PackageProjectUrl>https://github.com/hossmi/Blacksmith.TypeExtensions</PackageProjectUrl>
     <RepositoryUrl>https://github.com/hossmi/Blacksmith.TypeExtensions</RepositoryUrl>
     <PackageTags>tools extensions</PackageTags>
+    <Authors>hossmi</Authors>
+    <PackageReleaseNotes />
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Blacksmith.Validations" Version="1.2.3" />
+    <PackageReference Include="Blacksmith.Validations" Version="1.2.5" />
   </ItemGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
